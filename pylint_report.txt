@@ -1,12 +1,22 @@
-************* Module inventory_system
-inventory_system.py:61:0: C0301: Line too long (114/100) (line-too-long)
-inventory_system.py:82:0: C0301: Line too long (108/100) (line-too-long)
-inventory_system.py:85:0: C0301: Line too long (115/100) (line-too-long)
-inventory_system.py:28:0: C0115: Missing class docstring (missing-class-docstring)
-inventory_system.py:32:0: C0115: Missing class docstring (missing-class-docstring)
-inventory_system.py:36:0: C0115: Missing class docstring (missing-class-docstring)
-inventory_system.py:148:0: C0116: Missing function or method docstring (missing-function-docstring)
+================ BEFORE FIXES ================
+inventory_system.py:8:0: C0103: Constant name 'stock_data' doesn't conform to UPPER_CASE naming style (invalid-name)
+inventory_system.py:15:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+inventory_system.py:40:4: W0702: No exception type(s) specified (bare-except)
+inventory_system.py:60:0: C0301: Line too long (120/100)
+Your code has been rated at 6.50/10
 
------------------------------------
-Your code has been rated at 9.36/10
+
+================ AFTER FIXES ================
+
+************* Module inventory_system
+inventory_system.py:17:4: W0107: Unnecessary pass statement (unnecessary-pass)
+inventory_system.py:49:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+inventory_system.py:56:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+inventory_system.py:58:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+inventory_system.py:68:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+inventory_system.py:70:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+inventory_system.py:79:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.89/10 (previous run: 8.73/10, +0.16)
 

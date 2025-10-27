@@ -1,10 +1,18 @@
-Run started:2025-10-27 06:32:27.599728
+================ BEFORE FIXES ================
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Medium   Confidence: High
+   Location: inventory_system.py:40
+
+
+================ AFTER FIXES ================
+
+Run started:2025-10-27 07:23:23.404127
 
 Test results:
 	No issues identified.
 
 Code scanned:
-	Total lines of code: 138
+	Total lines of code: 73
 	Total lines skipped (#nosec): 0
 	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
 

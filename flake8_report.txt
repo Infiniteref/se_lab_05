@@ -1,18 +1,13 @@
-inventory_system.py:3:80: E501 line too long (89 > 79 characters)
-inventory_system.py:5:80: E501 line too long (89 > 79 characters)
-inventory_system.py:39:80: E501 line too long (91 > 79 characters)
-inventory_system.py:46:80: E501 line too long (86 > 79 characters)
-inventory_system.py:57:80: E501 line too long (98 > 79 characters)
-inventory_system.py:61:80: E501 line too long (114 > 79 characters)
-inventory_system.py:69:80: E501 line too long (86 > 79 characters)
-inventory_system.py:82:80: E501 line too long (108 > 79 characters)
-inventory_system.py:85:80: E501 line too long (115 > 79 characters)
-inventory_system.py:97:80: E501 line too long (82 > 79 characters)
-inventory_system.py:126:80: E501 line too long (85 > 79 characters)
-inventory_system.py:131:80: E501 line too long (84 > 79 characters)
-inventory_system.py:136:80: E501 line too long (86 > 79 characters)
-inventory_system.py:138:80: E501 line too long (99 > 79 characters)
-inventory_system.py:143:80: E501 line too long (99 > 79 characters)
-inventory_system.py:145:80: E501 line too long (84 > 79 characters)
-inventory_system.py:148:1: E302 expected 2 blank lines, found 1
-inventory_system.py:159:80: E501 line too long (87 > 79 characters)
+================ BEFORE FIXES ================
+inventory_system.py:15:15: E302 expected 2 blank lines, found 1
+inventory_system.py:40:4: E722 do not use bare 'except'
+inventory_system.py:60:0: E501 line too long (115 > 88 characters)
+
+
+================ AFTER FIXES ================
+
+inventory_system.py:15:1: E302 expected 2 blank lines, found 1
+inventory_system.py:26:80: E501 line too long (86 > 79 characters)
+inventory_system.py:33:80: E501 line too long (88 > 79 characters)
+inventory_system.py:49:80: E501 line too long (93 > 79 characters)
+inventory_system.py:70:80: E501 line too long (83 > 79 characters)
